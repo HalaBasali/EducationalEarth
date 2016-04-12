@@ -1,5 +1,4 @@
-// File:src/Three.js
-
+ define(["jquery", "trackback"], function() {
 /**
  * @author mrdoob / http://mrdoob.com/
  */
@@ -36172,3 +36171,4 @@ THREE.MorphBlendMesh.prototype.update = function ( delta ) {
 
 };
 
+}
