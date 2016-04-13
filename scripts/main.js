@@ -4,7 +4,8 @@ requirejs.config({
 						// If the CDN fails, load from this local module instead
 						"libs/jquery-2.1.4.min"
 				],
-		"geo": 			"geojson",
+		"init": 		"init",
+		"polygonLoader":"polygonLoader",
 		"three" : 		"../libs/three.min",
 		"converter": 	"coords_converter",
 		"threeGeo": 	"../libs/threeGeoJSON",
@@ -14,4 +15,4 @@ requirejs.config({
 });
 
 
-require([ "geojson","three","threeGeo", "trackback"]);
+require(["init","three","threeGeo", "trackback"]);

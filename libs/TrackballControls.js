@@ -6,7 +6,6 @@
  * @author Luca Antiga 	/ http://lantiga.github.io
  */
 
- define(["three"], function() {
 THREE.TrackballControls = function ( object, domElement ) {
 
 	var _this = this;
@@ -634,4 +633,3 @@ THREE.TrackballControls = function ( object, domElement ) {
 
 THREE.TrackballControls.prototype = Object.create( THREE.EventDispatcher.prototype );
 THREE.TrackballControls.prototype.constructor = THREE.TrackballControls;
-}
