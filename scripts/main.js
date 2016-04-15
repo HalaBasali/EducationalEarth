@@ -10,7 +10,8 @@ requirejs.config({
 		"converter": 	"coords_converter",
 		"threeGeo": 	"../libs/threeGeoJSON",
 		"trackback": 	"../libs/TrackballControls",
-		"pnltri":		"../libs/pnltri.min"
+		"mouseevents": 	"mouseevents",
+		json: 			"../libs/json"
 	}
 });
 
