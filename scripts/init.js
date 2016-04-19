@@ -54,7 +54,6 @@
         color: 'red'
     });
 
-    germanyData.style.color = "blue";
     render();
     console.log(germanyData);
     var coordinates = germanyData.geometry.coordinates;
